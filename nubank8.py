@@ -31,14 +31,4 @@ respostas = []
 for j in range(len(index)):
   respostas.append(nomes[index[j]])
 
-
-index = []
-for i in range(len(totais)):
-  if totais[i] == min(totais):
-    index.append(i)
-
-respostas = []
-for j in range(len(index)):
-  respostas.append(nomes[index[j]])
-
 print(sorted(respostas))
